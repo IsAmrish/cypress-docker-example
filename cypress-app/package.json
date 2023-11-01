@@ -1,0 +1,13 @@
+{
+  "name": "cypress-app-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.3.3"
+  },
+  "scripts": {
+    "cy:headless": "yarn cypress run",
+    "cy": "yarn cypress open"
+  }
+}

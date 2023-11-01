@@ -1,0 +1,95 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row>button {
+    margin-left: 4px;
+    margin-right: 8px;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    padding: 13px 24px;
+    margin-right: 20px;
+    min-width: 410px;
+    border: 2px solid #4942E4;
+}
+
+.input:focus-visible {
+    outline: none;
+    border: 2px solid #4942E4;
+}
+
+.button, .button:active, .button:focus {
+    appearance: none;
+    background: none;
+    font-size: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: none;
+    border: 2px solid #4942E4;
+    color: #fff;
+    padding-bottom: 4px;
+    cursor: pointer;
+    background-color: #4942E4;
+    border-radius: 2px;
+    transition: all 0.15s;
+}
+
+
+.paragraph {
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.todoTitle {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.todoLeft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.todoRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.todoCheckbox {
+    height: 28px;
+    width: 28px;
+    margin-right: 12px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
